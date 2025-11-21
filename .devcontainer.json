@@ -1,1 +1,4 @@
-{"image":"mcr.microsoft.com/devcontainers/base:ubuntu"}
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "postCreateCommand": "git config --local gpg.format ssh && git config --local gpg.ssh.program \"$(which ssh-keygen)\" && git config --local commit.gpgsign true"
+}
