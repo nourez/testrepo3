@@ -12,3 +12,4 @@ test another commit message
 test another commit message again
 only change one line
 does unstaging and staging work?
+are all these commits signed?
